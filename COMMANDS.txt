@@ -1,0 +1,10 @@
+Talk (Dependent on game logic): If an NPC is in an area, a while True statement is activated and the player engages in conversation.
+Move (Based on cardinal directions and map size): The player can move north, east, south, or west as long as move precedes north. Ex. Move north
+Follow (For taking hidden paths): If finds a hidden path, the player can take it, by just inputting follow. Only works after using the search command. 
+Inv: If the player inputs inv, the player’s inventory is listed. 
+Search: Search reveals hidden objects and hidden paths if there are any.
+Take: Essentially picking up items. Can be used like (Ex. take apple; the apple is then added to the players inventory)
+Drop: Essentially dropping items in an area. Can be used like (Ex. drop apple; then the apple is then added to the location’s inventory)
+Stat: Used to see the health of player character 
+Read: Used to read certain items in the Mind of Husk
+Eat: Used to eat specific items and get more health in the Mind of Husk
