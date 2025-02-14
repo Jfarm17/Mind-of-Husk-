@@ -1,0 +1,85 @@
+game_name: The Mind of Husk
+game_goal: Find a way to create flame and leave the flames in specific locations. Then find your lost home and realize who you are.
+game_goalloc: 9
+game_goalobj: Realization
+game_start: 5
+game_xsize: 3
+game_ysize: 3
+---
+r_id:1
+r_desc: A pillar housing your emotion. The warm smell of apple pie fills this area. Nostalgia runs rampant, yet it feels alien to you.
+r_objs: []
+r_hiddenpath: ""
+r_east: "2"
+r_south: "4"
+---
+r_id:2
+r_desc: Echoes of memories once yours roam around here. A white room with whispers of death.
+r_objs: ["apple", "flint and steel"]
+r_hiddenobj: ["Ancient Yo Momma Joke"]
+r_west: "1"
+r_east: "3"
+r_south: "5"
+---
+r_id:3
+r_desc: A structured sequence of memories float around a dark pillar. A smell of decaying flesh enters your nostrils.
+r_objs: ["junk"]
+r_north: "3"
+r_west: "2"
+r_east: "6"
+r_south: "3"
+---
+r_id:4
+r_desc: Something feels wrong here. A pillar is here yet it does not feel right. A smell of warm cinnamon envelops your senses. A strange and old looking woman minding her business as she stirs a pot.
+r_objs: ["Stick of pain"]
+r_north: "1"
+r_west: "4"
+r_east: "5"
+r_south: "7"
+---
+r_id:5
+r_desc: A boundless mound of corpses. The smell is disgusting and the stench makes your nostrils burn. The place where your current you was born.
+r_objs: ["Human Effigy"]
+r_hiddenpath: "7"
+r_north: "2"
+r_west: "4"
+r_east: "6"
+r_south: "8"
+---
+r_id:6
+r_desc: A foresty area with an oak pillar standing between two large trees. Nothing seems out of the ordinary except a really thick fog covering the area. The fog seems fairly thinner to the north though.
+r_objs: []
+r_north: "3"
+r_west: "6"
+r_east: "6"
+r_south: "6"
+---
+r_id:7
+r_desc: A place of interpretation. A non-intimidating pillar stands proud. The smallest one yet, and yet prouder than the others.
+r_objs: []
+r_north: "4"
+r_west: "7"
+r_east: "8"
+r_south: "7"
+---
+r_id:8
+r_desc: A desolate path used to find the house of hope and memories. Dead students wanting to find their beloved.
+r_objs: []
+r_north: "5"
+r_west: "7"
+r_east: "8"
+r_south: "8"
+---
+r_id:9
+r_desc: Home to many memories. You feel you coming back.
+r_objs: ["Realization"]
+---
+npc_id: 1
+npc_name: Gladys of Delusion
+npc_desc: An old woman with a thin and papery skin, clung tightly to her bones. Wrinkles etched with supposed wisdom. A hunchback.
+npc_location: 4
+npc_dialogue: ["Another weak husk of man. What business do you have here?", "Do you have a flame for me? Pity. I'd put the flame into this pillar for you.", "Well toodles chap.", "You have flame? GIVE IT! I can light the pillar here.", "I have no idea what that means brat.", "Your goal? Why it's the same as any husk. Remember yourself.", "Oh I am hungry. Rude and old I may be however can you spare an old woman an apple before you leave me?", "Thank you! I have a gift for you","Please get some flame for me then. What else is a husk meant for? Realization? Don't make me laugh"]
+npc_interact: ["What is my goal?", "I have no flame", "I do have a flame", "Give her an apple", "End Dialogue"]
+npc_interact_2: ["Give flame", "Do not give her the flame"]
+npc_inv: ["giant toenail"]
+npc_movable: false
